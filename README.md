@@ -10,7 +10,7 @@ The data set included with the assignment is based on 2014 ACS 1-year estimates:
 ## Your Task
 
 ### Core Assignment: D3 Dabbler (Required Assignment)
-![4-scatter](Images/4-scatter.jpg)
+![4-scatter](D3_data_journalism/Images//4-scatter.jpg)
 
 You need to create a scatter plot between two of the data variables such as `Healthcare vs. Poverty` or `Smokers vs. Age`.
 Using the D3 techniques we taught you in class, create a scatter plot that represents each state with circle elements. You'll code this graphic in the `app.js` file of your homework directory—make sure you pull in the data from `data.csv` by using the `d3.csv` function. Your scatter plot should ultimately appear like the image at the top of this section.
@@ -21,7 +21,7 @@ Using the D3 techniques we taught you in class, create a scatter plot that repre
 
 ### Bonus: Impress the Boss (Optional Assignment)
 Why make a static graphic when D3 lets you interact with your data?
-![7-animated-scatter](Images/7-animated-scatter.gif)
+![7-animated-scatter](D3_data_journalism/Images//7-animated-scatter.gif)
 
 #### 1. More Data, More Dynamics
 You're going to include more demographics and more risk factors. Place additional labels in your scatter plot and give them click events so that your users can decide which data to display. Animate the transitions for your circles' locations as well as the range of your axes. Do this for two risk factors for each axis. Or, for an extreme challenge, create three for each axis.

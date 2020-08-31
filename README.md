@@ -1,5 +1,7 @@
 # D3 Homework - Data Journalism and D3
 
+## https://thegreekgoddess.github.io/D3-challenge/
+
 ![Newsroom](https://media.giphy.com/media/v2xIous7mnEYg/giphy.gif)
 
 ## Background
@@ -18,7 +20,6 @@ Using the D3 techniques we taught you in class, create a scatter plot that repre
 * Create and situate your axes and labels to the left and bottom of the chart.
 * Note: You'll need to use `python -m http.server` to run the visualization. This will host the page at `localhost:8000` in your web browser.
 - - -
-
 ### Bonus: Impress the Boss (Optional Assignment)
 Why make a static graphic when D3 lets you interact with your data?
 ![7-animated-scatter](D3_data_journalism/Images//7-animated-scatter.gif)
@@ -32,7 +33,6 @@ While the ticks on the axes allow us to infer approximate values for each circle
 ![8-tooltip](Images/8-tooltip.gif)
 * Check out [David Gotz's example](https://bl.ocks.org/davegotz/bd54b56723c154d25eedde6504d30ad7) to see how you should implement tooltips with d3-tip.
 - - -
-
 ### Assessment
 Your final product will be assessed on the following metrics:
 * Creation of a **new** repository on GitHub called `D3-Challenge` (note the kebab-case). Do not add to an already existing repo.

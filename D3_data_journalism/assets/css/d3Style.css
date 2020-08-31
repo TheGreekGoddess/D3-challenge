@@ -6,32 +6,35 @@
 
 .active {
   font-weight: bold;
-  fill: #000;
+  fill: #30302E;
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
 
+/*  font weight and colors updated */
 .inactive {
-  font-weight: lighter;
-  fill: #c9c9c9;
+  /* font-weight: lighter; */
+  font-weight: normal;
+  fill: #DB2E27;
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
 
 .inactive:hover {
-  fill: #000;
+  fill: #30302E;
   cursor: pointer;
 }
 
 /* font size dependent on radius, see app.js */
 .stateText {
   font-family: sans-serif;
-  fill: #fff;
+  fill: #F3EFE4;
   text-anchor: middle;
 }
 
+/*  circle color updated */
 .stateCircle {
-  fill: #89bdd3;
+  fill: #DB2E27;
   stroke: #e3e3e3;
 }
 
@@ -40,31 +43,32 @@
   margin: 0;
 }
 
+/*  tooltip colors and font alignment updated */
 .d3-tip {
-  padding: 6px;
-  font-size: 12px;
+  padding: 7px;
+  font-size: 14px;
   line-height: 1;
   line-height: 1.5em;
-  color: #fff;
-  text-align: center;
+  color: #30302E;
+  text-align: left;
   text-transform: capitalize;
-  background: rgba(0, 0, 0, 0.8);
-  border-radius: 4px;
+  background: #F3EFE4;
+  border-radius: 7px;
 }
 
 /* Mobile Rules */
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 560px) {
   .stateText {
     display: none;
   }
 
   .aText {
-    font-size: 14px;
+    font-size: 11px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 470px) {
   .aText {
-    font-size: 13px;
+    font-size: 11px;
   }
 }

@@ -1,6 +1,6 @@
 # D3 Homework - Data Journalism and D3
 
-## https://thegreekgoddess.github.io/D3-challenge/
+## https://thegreekgoddess.github.io/Data_Analysis_and_Visualization_using_D3/
 
 ![Newsroom](https://media.giphy.com/media/v2xIous7mnEYg/giphy.gif)
 
